@@ -7,7 +7,10 @@ app.use(express.json());
 
 console.log(process.env)
 
-mongoose.connect('mongodb://127.0.0.1:27017/PPIII').then(
+const host = process.env.DB_HOST;
+const name = process.env.DB_NAME;
+
+mongoose.connect(`mongodb://${host}/${name}`).then(
     () => {console.log("it works :)))")},
     err => {console.log(err.message)}
 );
