@@ -1,0 +1,29 @@
+{
+  "name": "ppiii",
+  "version": "1.0.0",
+  "description": "This project uses the Spotify REST Web API that allows users to search for albums, artists, and songs. It contains both a backend and frontend, along with using JSON web tokens.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonesAndrew-FS/PPIII.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonesAndrew-FS/PPIII/issues"
+  },
+  "homepage": "https://github.com/JonesAndrew-FS/PPIII#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.4.4",
+    "nodemon": "^2.0.22",
+    "sequelize": "^6.32.1",
+    "sequelize-cli": "^6.6.1"
+  }
+}

@@ -6,16 +6,15 @@ This project uses the Spotify REST Web API that allows users to search for album
 
 (There will probably be more prerequisites added as development continues and I figure out what is necessary to run the project.)
 
-- NodeJS
-- npm
-- MongoDB
-- Web Browser
-- Ports 3000 & 3001
+- NodeJS >= v20.3.3
+- npm >= v9.3.1
+- Web Browser (latest)
+- Port 3001
 
 # Getting Started
 
-This part is currently under construction (there is no project at the moment).
+Once everything is installed, in a terminal, run "npm start".
 
 # Links
 
-This part is currently under construction (there is no project at the moment).
+localhost:3001 - Backend
