@@ -8,6 +8,7 @@ This project uses the Spotify REST Web API that allows users to search for album
 
 - NodeJS >= v20.3.3
 - npm >= v9.3.1
+- MongoDB Server
 - Web Browser (latest)
 - Port 3001
 
