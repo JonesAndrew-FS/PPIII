@@ -14,7 +14,8 @@ This project uses the Spotify REST Web API that allows users to search for album
 
 # Getting Started
 
-Once everything is installed, in a terminal, run "npm start".
+After installing all required modules, put in your MongoDB connection string and database name into a .env file (DB_HOST as connection string, DB_NAME as database name).
+Afterwards, run "npm start" in a terminal, and everything should be working.
 
 # Links
 
